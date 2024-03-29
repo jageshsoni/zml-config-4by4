@@ -1,0 +1,9 @@
+# Copyright (c) 2020 Pete Johanson, Richard Jones
+# SPDX-License-Identifier: MIT
+
+if SHIELD_4BY4
+
+config ZMK_KEYBOARD_NAME
+    default "4by4"
+
+endif
