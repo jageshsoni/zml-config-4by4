@@ -26,8 +26,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_b: ctrl_alt_b {
             label = "CTRL_ALT_B";
             compatible = "zmk,behavior-macro";
@@ -40,8 +40,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_c: ctrl_alt_c {
             label = "CTRL_ALT_C";
             compatible = "zmk,behavior-macro";
@@ -54,8 +54,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_d: ctrl_alt_d {
             label = "CTRL_ALT_D";
             compatible = "zmk,behavior-macro";
@@ -68,8 +68,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_e: ctrl_alt_e {
             label = "CTRL_ALT_E";
             compatible = "zmk,behavior-macro";
@@ -82,8 +82,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_f: ctrl_alt_f {
             label = "CTRL_ALT_F";
             compatible = "zmk,behavior-macro";
@@ -96,8 +96,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_g: ctrl_alt_g {
             label = "CTRL_ALT_G";
             compatible = "zmk,behavior-macro";
@@ -110,8 +110,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_h: ctrl_alt_h {
             label = "CTRL_ALT_H";
             compatible = "zmk,behavior-macro";
@@ -124,8 +124,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_i: ctrl_alt_i {
             label = "CTRL_ALT_I";
             compatible = "zmk,behavior-macro";
@@ -138,8 +138,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_j: ctrl_alt_j {
             label = "CTRL_ALT_J";
             compatible = "zmk,behavior-macro";
@@ -152,8 +152,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_k: ctrl_alt_k {
             label = "CTRL_ALT_K";
             compatible = "zmk,behavior-macro";
@@ -166,8 +166,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_l: ctrl_alt_l {
             label = "CTRL_ALT_L";
             compatible = "zmk,behavior-macro";
@@ -180,8 +180,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_m: ctrl_alt_m {
             label = "CTRL_ALT_M";
             compatible = "zmk,behavior-macro";
@@ -194,8 +194,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_n: ctrl_alt_n {
             label = "CTRL_ALT_N";
             compatible = "zmk,behavior-macro";
@@ -208,8 +208,8 @@
                 , <&macro_release &kp LEFT_ALT>
                 ;
         };
-    };
-    macros {
+    
+    
         ctrl_alt_o: ctrl_alt_o {
             label = "CTRL_ALT_O";
             compatible = "zmk,behavior-macro";
