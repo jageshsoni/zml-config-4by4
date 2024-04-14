@@ -13,6 +13,22 @@
 #define BT   1
 
 / {
+    macros {
+        ctrl_alt_a: ctrl_alt_a {
+            label = "CTRL_ALT_A";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp A>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -31,7 +47,7 @@
             // >;
             bindings = <
             &kp A     &kp B     &kp C     &kp D
-            &kp E     &kp F     &kp G     &kp H
+            &ctrl_alt_a     &kp F     &kp G     &kp H
             &kp I     &kp J     &kp K     &kp L
             &mo 1     &kp M     &kp N     &kp O
             >;
