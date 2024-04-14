@@ -236,18 +236,18 @@
 // |   1   |    2    |    3    |    -    |
 // |   BT  |    0    |    .    |    +    |
            
-            // bindings = <
-            // &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_DIVIDE
-            // &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_MULTIPLY
-            // &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_MINUS
-            // &mo 1         &kp KP_N0     &kp KP_DOT    &kp KP_PLUS
-            // >;
             bindings = <
-            &ctrl_alt_a     &ctrl_alt_b     &ctrl_alt_c     &ctrl_alt_d
-            &ctrl_alt_e     &ctrl_alt_f     &ctrl_alt_g     &ctrl_alt_h
-            &ctrl_alt_i     &ctrl_alt_j     &ctrl_alt_k     &ctrl_alt_l
-            &mo 1           &ctrl_alt_m     &ctrl_alt_n     &ctrl_alt_o
+            &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_DIVIDE
+            &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_MULTIPLY
+            &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_MINUS
+            &mo 1         &kp KP_N0     &kp KP_DOT    &kp KP_PLUS
             >;
+            // bindings = <
+            // &ctrl_alt_a     &ctrl_alt_b     &ctrl_alt_c     &ctrl_alt_d
+            // &ctrl_alt_e     &ctrl_alt_f     &ctrl_alt_g     &ctrl_alt_h
+            // &ctrl_alt_i     &ctrl_alt_j     &ctrl_alt_k     &ctrl_alt_l
+            // &mo 1           &ctrl_alt_m     &ctrl_alt_n     &ctrl_alt_o
+            // >;
             };
 
             bt_layer {
