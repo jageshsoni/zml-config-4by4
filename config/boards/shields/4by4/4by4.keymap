@@ -27,6 +27,203 @@
                 ;
         };
     };
+    macros {
+        ctrl_alt_b: ctrl_alt_b {
+            label = "CTRL_ALT_B";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp B>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_c: ctrl_alt_c {
+            label = "CTRL_ALT_C";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp C>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_d: ctrl_alt_d {
+            label = "CTRL_ALT_D";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp D>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_e: ctrl_alt_e {
+            label = "CTRL_ALT_E";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp E>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_f: ctrl_alt_f {
+            label = "CTRL_ALT_F";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp F>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_g: ctrl_alt_g {
+            label = "CTRL_ALT_G";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp G>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_h: ctrl_alt_h {
+            label = "CTRL_ALT_H";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp H>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_i: ctrl_alt_i {
+            label = "CTRL_ALT_I";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp I>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_j: ctrl_alt_j {
+            label = "CTRL_ALT_J";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp J>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_k: ctrl_alt_k {
+            label = "CTRL_ALT_K";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp K>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_l: ctrl_alt_l {
+            label = "CTRL_ALT_L";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp L>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_m: ctrl_alt_m {
+            label = "CTRL_ALT_M";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp M>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_n: ctrl_alt_n {
+            label = "CTRL_ALT_N";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp N>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    macros {
+        ctrl_alt_o: ctrl_alt_o {
+            label = "CTRL_ALT_O";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LEFT_CONTROL>
+                , <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp O>
+                , <&macro_release &kp LEFT_CONTROL>
+                , <&macro_release &kp LEFT_ALT>
+                ;
+        };
+    };
+    
 
 
     keymap {
@@ -46,10 +243,10 @@
             // &mo 1         &kp KP_N0     &kp KP_DOT    &kp KP_PLUS
             // >;
             bindings = <
-            &kp A     &kp B     &kp C     &kp D
-            &ctrl_alt_a     &kp F     &kp G     &kp H
-            &kp I     &kp J     &kp K     &kp L
-            &mo 1     &kp M     &kp N     &kp O
+            &ctrl_alt_a     &ctrl_alt_b     &ctrl_alt_c     &ctrl_alt_d
+            &ctrl_alt_e     &ctrl_alt_f     &ctrl_alt_g     &ctrl_alt_h
+            &ctrl_alt_i     &ctrl_alt_j     &ctrl_alt_k     &ctrl_alt_l
+            &mo 1           &ctrl_alt_m     &ctrl_alt_n     &ctrl_alt_o
             >;
             };
 
